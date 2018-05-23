@@ -70,7 +70,7 @@
         }
       },
       {
-        "destination": "https://cdn.rawgit.com/ObeyLordGoomy/Hack/e77ab01e/combined.115.20.35.54.css",
+        "destination": "https://cdn.rawgit.com/ObeyLordGoomy/OldRiderHD/7a930a15/combined.115.20.35.54.css",
         "source": {
           "key": "Url",
           "operator": "Contains",
