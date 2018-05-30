@@ -74,7 +74,170 @@
         "source": {
           "key": "Url",
           "operator": "Contains",
-          "value": "https://cdn.freeriderhd.com/free_rider_hd/assets/styles/combined/gui/combined.min.115.20.35.54.css"
+          "value": "https://cdn.freeriderhd.com/free_rider_hd/assets/styles/combined/gui/combined.min.116.20.49.38.css"
+        }
+      }
+    ],
+    "ruleType": "Redirect",
+    "status": "Active"
+  },
+  {
+    "creationDate": 1523482422230,
+    "description": "blocks device data",
+    "id": "Cancel_1523482422230",
+    "name": "Block Device Data",
+    "pairs": [
+      {
+        "source": {
+          "key": "Url",
+          "operator": "Contains",
+          "value": "http://track.atom.io/bulk"
+        }
+      },
+      {
+        "source": {
+          "key": "Url",
+          "operator": "Contains",
+          "value": "https://track.atom.io/bulk"
+        }
+      },
+      {
+        "source": {
+          "key": "Url",
+          "operator": "Contains",
+          "value": "http://track.atom-data.io/bulk"
+        }
+      },
+      {
+        "source": {
+          "key": "Url",
+          "operator": "Contains",
+          "value": "https://track.atom-data.io/bulk"
+        }
+      },
+      {
+        "source": {
+          "key": "Url",
+          "operator": "Contains",
+          "value": "https://static.ultra-rv.com/rv-min.js"
+        }
+      },
+      {
+        "source": {
+          "key": "Url",
+          "operator": "Contains",
+          "value": "http://static.ultra-rv.com/rv-min.js"
+        }
+      },
+      {
+        "source": {
+          "key": "Url",
+          "operator": "Contains",
+          "value": "https://www.google-analytics.com/analytics.js"
+        }
+      },
+      {
+        "source": {
+          "key": "Url",
+          "operator": "Contains",
+          "value": "http://www.google-analytics.com/analytics.js"
+        }
+      },
+      {
+        "source": {
+          "key": "Url",
+          "operator": "Contains",
+          "value": "https://adservice.google.com/adsid/integrator.js"
+        }
+      },
+      {
+        "source": {
+          "key": "Url",
+          "operator": "Contains",
+          "value": "http://adservice.google.com/adsid/integrator.js"
+        }
+      }
+    ],
+    "ruleType": "Cancel",
+    "status": "Active"
+  }
+][
+  {
+    "creationDate": 1527028993428,
+    "description": "By: GoodraFRHD",
+    "id": "Redirect_1527028993428",
+    "name": "OldRiderHD v0.3",
+    "pairs": [
+      {
+        "destination": "http://i.imgur.com/203LQOk.png",
+        "source": {
+          "key": "Url",
+          "operator": "Contains",
+          "value": "http://cdn.freeriderhd.com/free_rider_hd/assets/images/icons/core_icons_v11.png"
+        }
+      },
+      {
+        "destination": "https://i.imgur.com/203LQOk.png",
+        "source": {
+          "key": "Url",
+          "operator": "Contains",
+          "value": "https://cdn.freeriderhd.com/free_rider_hd/assets/images/icons/core_icons_v11.png"
+        }
+      },
+      {
+        "destination": "http://i.imgur.com/kgVP6WZ.png",
+        "source": {
+          "key": "Url",
+          "operator": "Contains",
+          "value": "http://cdn.freeriderhd.com/free_rider_hd/assets/images/icons/store_icons_v7.png"
+        }
+      },
+      {
+        "destination": "https://i.imgur.com/kgVP6WZ.png",
+        "source": {
+          "key": "Url",
+          "operator": "Contains",
+          "value": "https://cdn.freeriderhd.com/free_rider_hd/assets/images/icons/store_icons_v7.png"
+        }
+      },
+      {
+        "destination": "http://i.imgur.com/273jlV2.png",
+        "source": {
+          "key": "Url",
+          "operator": "Contains",
+          "value": "http://cdn.freeriderhd.com/free_rider_hd/assets/images/icons/profile_icons_v2.png"
+        }
+      },
+      {
+        "destination": "https://i.imgur.com/273jlV2.png",
+        "source": {
+          "key": "Url",
+          "operator": "Contains",
+          "value": "https://cdn.freeriderhd.com/free_rider_hd/assets/images/icons/profile_icons_v2.png"
+        }
+      },
+      {
+        "destination": "http://i.imgur.com/wkuExmP.png",
+        "source": {
+          "key": "Url",
+          "operator": "Contains",
+          "value": "http://cdn.freeriderhd.com/free_rider_hd/assets/images/icons/menu_icons_v2.png"
+        }
+      },
+      {
+        "destination": "https://i.imgur.com/wkuExmP.png",
+        "source": {
+          "key": "Url",
+          "operator": "Contains",
+          "value": "https://cdn.freeriderhd.com/free_rider_hd/assets/images/icons/menu_icons_v2.png"
+        }
+      },
+      {
+        "destination": "https://cdn.rawgit.com/ObeyLordGoomy/OldRiderHD/7a930a15/combined.115.20.35.54.css",
+        "source": {
+          "key": "Url",
+          "operator": "Contains",
+          "value": "https://cdn.freeriderhd.com/free_rider_hd/assets/styles/combined/gui/combined.min.116.20.49.38.css"
         }
       }
     ],
